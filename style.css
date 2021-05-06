@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+}
+
+body{
+   background: #fd84ff;
+}
+
+.answer_block{
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+}
+
+.Peolpe_answer_block,
+.PC_answer_block{
+  background: white;
+
+  text-align: center;
+
+  width: 50%;
+  height: 100%;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border-left: 2px solid #aaa;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.Block-with-choice{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.rock,
+.paper,
+.Scissors{
+  width: 90px;
+  height: 100%;
+
+  background: white;
+
+  margin-top: 20%;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.choice_img{
+  width: 75px;
+  height: 75px;
+
+  display: inline-block;
+}
