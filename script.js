@@ -67,6 +67,4 @@ function pc_choice(){
   if(pc == 3){
     pc_answer.innerHTML = 'Компьютер выбрал ножницы!'
   }
-
-  if(user == 1)
 }
