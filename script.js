@@ -22,8 +22,6 @@ let user_answer = document.getElementById('people_answer_text');
 function pc_choice(){
   pc = Math.round(Math.random()*2);
 
-  console.log(pc);
-
   if(pc == 0){
     pc_answer.innerHTML = 'Компьютер выбрал камень!';
   }
